@@ -1,0 +1,7 @@
+data=input("data: ")
+c=data.split(",")
+print("lenght:",len(c))
+print("list enumerate:",list(enumerate(c)))
+print(max(c))
+print(min(c))
+print("list:",sorted(c))
